@@ -1,0 +1,46 @@
+/* src/components/Aborigins.css */
+.aborigin-section {
+  background-color: #110c0b; /* Темно-коричневый фон */
+  background-image: url('/public/images/background.webp');
+  padding: 50px 0;
+  color: white;
+}
+
+.aborigin-title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.aborigin-card {
+  background-color: #000000; /* Цвет карточки */
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  width: 80%; /* Ширина карточки */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.aborigin-card .aborigin-text {
+  flex: 1; /* Текстовая часть карточки */
+  margin-right: 20px;
+}
+
+.aborigin-card .aborigin-text h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.aborigin-card .aborigin-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.aborigin-card img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover; /* Чтобы изображение хорошо вписывалось */
+}

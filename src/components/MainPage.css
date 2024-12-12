@@ -1,0 +1,36 @@
+/* MainPage.css */
+.main-page {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    background-image: url('../assets/background.png');
+    /* Укажи правильный путь */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.background-image h1 {
+    font-size: 80px;
+    color: white;
+    text-shadow: 10px 10px 18px rgba(0, 0, 0, 0.7);
+}
+
+.logo-image {
+    margin-top: -50px;
+    /* Расстояние между текстом и изображением */
+    width: 400px;
+    /* Задай нужный размер */
+    height: auto;
+}

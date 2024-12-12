@@ -1,0 +1,15 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.8);  /* Черный фон с небольшой прозрачностью */
+  color: white;  /* Белый текст */
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;  /* Убедитесь, что подвал будет всегда поверх других элементов */
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
